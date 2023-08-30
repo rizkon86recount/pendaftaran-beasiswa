@@ -190,7 +190,7 @@ if (isset($_GET['link_page'])) {
                         ?>
                             <div class="row grid-item border border-3">
                                 <div class="col-md-3 col-lg-4">
-                                    <img class="img-fluid mt-4" width="140px" src="uploads/<?= $user_data['berkas']; ?>" alt="">
+                                    <img class="img-fluid mt-4" width="145px" src="uploads/<?= $user_data['berkas']; ?>" alt="">
                                 </div>
                                 <div class="col-md-9 col-lg-8">
                                     <div class="row">
