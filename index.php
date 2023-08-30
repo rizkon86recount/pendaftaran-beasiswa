@@ -102,7 +102,7 @@ if (isset($_GET['link_page'])) {
 
                 <div class="tab-pane fade <?= SetContentPage("2", $link_page); ?>" id="daftar" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
                     <div class="section-menu">
-                        <h4 class="fw-bold">Form Pendaftaran</h4>
+                        <h4 class="fw-bold mb-4">Form Pendaftaran</h4>
                         <form action="addPendaftar.php" method="post" enctype="multipart/form-data">
                             <div class="mb-3 row">
                                 <label for="nama" class="col-sm-2 col-form-label">Masukan Nama</label>
